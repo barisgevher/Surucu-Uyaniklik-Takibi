@@ -90,7 +90,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                     }
                   } catch (err) {
                     ScaffoldMessenger.of(context).showSnackBar(SnackBar(
-                      content: Text("Bir şeyler yanlış gitti.Tekrar deneyin!"),
+                      content: Text("Bir şeyler yanlış gitti.Lütfe tekrar deneyin!"),
                     ));
                     print(err);
                   }
